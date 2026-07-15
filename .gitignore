@@ -1,0 +1,35 @@
+# Виртуальная среда
+.venv/
+venv/
+env/
+
+# IDE (PyCharm)
+.idea/
+*.iml
+
+# Секреты и конфиги
+.env
+secrets.toml
+*.key
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Тесты и инструменты
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Логи
+*.log
+
+# БД (если локальная и не нужна в репе)
+# *.sqlite3
+# db.sqlite3
